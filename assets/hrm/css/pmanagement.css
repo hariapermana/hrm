@@ -1,0 +1,209 @@
+Nav {
+  background-color: #2762bd;
+}
+
+Nav .profile-modal {
+  position: absolute;
+  bottom: -170px;
+  right: 30px;
+  width: 150px;
+  z-index: 100;
+}
+
+Nav .card .navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+Nav .group {
+  display: flex;
+  align-items: center;
+}
+
+Nav .group > input,
+i {
+  border: none;
+  background-color: white;
+}
+
+Nav .group > input {
+  font-size: 12px;
+  padding: 0.32rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+Nav .group > i {
+  font-size: 12px;
+  padding: 0.51rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+Nav .nav-link > .notification {
+  display: flex;
+  position: relative;
+}
+
+Nav .nav-link > .notification > span {
+  font-size: 10px;
+  color: #fff;
+  background: rgb(228, 103, 103);
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+}
+
+#main {
+  background: url("../img/hero_bg.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+#main .card > .card-body {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#main .wrapper {
+  position: absolute;
+  top: 10rem;
+}
+
+#main .d-flex > .flex-1,
+#main .d-flex > .flex-2 {
+  background: #fff;
+  width: 100%;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+}
+
+#main .d-flex > .flex-1 {
+  margin-right: 0.75rem;
+}
+
+#main .d-flex > .flex-2 {
+  margin-left: 0.75rem;
+}
+
+#main .text-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#main .d-flex > .flex-1 > .d-flex > .infor > span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+#main .d-flex > .flex-1 > .d-flex > .infor > p {
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+#main .d-flex > .flex-2 > ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#main .d-flex > .flex-2 > ul > li > a {
+  text-decoration: none;
+  line-height: 20px;
+  color: #141414;
+  font-size: 14px;
+}
+
+#main .d-flex > .flex-2 > .go-to-inbox {
+  border-top: 2px solid #00000060;
+  padding-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+#main .d-flex > .flex-2 > .go-to-inbox > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#main > .wrapper > .card {
+  box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+}
+
+#main > .wrapper > .card > .card-body > .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#main > .wrapper > .card > .card-body > .d-flex > .items {
+  flex-grow: 1;
+  height: 100px;
+  width: calc(100% * (1 / 5) - 2px);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#inbox {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+#inbox Nav > .breadcrumb {
+  background: #2762bd;
+  padding-top: 2.8rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+#inbox Nav > .breadcrumb > .active::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #fff;
+  content: "/";
+}
+
+#inbox Nav > .breadcrumb > .breadcrumb-item,
+#inbox Nav > .breadcrumb > .breadcrumb-item > a {
+  color: #ffffff;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+a, a:hover {
+  color: #141414;
+  text-decoration: none;
+}
+
+.sidenav {
+  background: #cccccc;
+}
+
+.content {
+  margin-top: -1rem;
+}
